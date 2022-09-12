@@ -1,0 +1,15 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/Users/jonask/Music/Daisy/ProteusVersio/build",
+            "binaryPath": "/Users/jonask/Music/Daisy/ProteusVersio/build/ProteusVersio.elf",
+            "binaryArgs": []
+        }
+    ],
+    "files.associations": {
+        "cstring": "cpp",
+        "random": "cpp",
+        "string": "cpp",
+        "vector": "cpp"
+    }
+}
