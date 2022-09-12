@@ -246,7 +246,7 @@ build/ProteusVersio.o: ProteusVersio.cpp \
  /Users/jonask/Music/Daisy/DaisyExamples/DaisySP/Source/Utility/port.h \
  /Users/jonask/Music/Daisy/DaisyExamples/DaisySP/Source/Utility/samplehold.h \
  /Users/jonask/Music/Daisy/DaisyExamples/DaisySP/Source/Utility/smooth_random.h \
- Note.hpp Scales.hpp poisson.hpp utils.hpp
+ Note.hpp Scales.hpp utils.hpp
 /Users/jonask/Music/Daisy/DaisyExamples/libDaisy/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h:
 /Users/jonask/Music/Daisy/DaisyExamples/libDaisy/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h:
 /Users/jonask/Music/Daisy/DaisyExamples/libDaisy/Drivers/CMSIS/Include/core_cm7.h:
@@ -496,5 +496,4 @@ build/ProteusVersio.o: ProteusVersio.cpp \
 /Users/jonask/Music/Daisy/DaisyExamples/DaisySP/Source/Utility/smooth_random.h:
 Note.hpp:
 Scales.hpp:
-poisson.hpp:
 utils.hpp:
