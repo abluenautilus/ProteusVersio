@@ -550,12 +550,6 @@ int main(void)
             formant_osc.SetPhaseShift(hw.GetKnobValue(DaisyVersio::KNOB_6));
             gateLengthKnobPosition = hw.GetKnobValue(DaisyVersio::KNOB_3);
 
-            saw_osc.SetPW((hw.GetKnobValue(DaisyVersio::KNOB_6)*2-1));
-            saw_osc.SetWaveshape(hw.GetKnobValue(DaisyVersio::KNOB_5));
-
-            z_osc.SetShape((hw.GetKnobValue(DaisyVersio::KNOB_6)*2-1));
-            z_osc.SetMode(hw.GetKnobValue(DaisyVersio::KNOB_5));
-
         } else if (hw.sw[1].Read() == hw.sw->POS_CENTER) {
 
             oscControls = false;
@@ -567,13 +561,11 @@ int main(void)
         
             oscControls = true;
             selectedOsc = OSC_RINGS;
-            //string_osc.SetStructure(hw.GetKnobValue(DaisyVersio::KNOB_5));
             string_osc.SetAmp(hw.GetKnobValue(DaisyVersio::KNOB_5));
             string_osc.SetDecay(hw.GetKnobValue(DaisyVersio::KNOB_3));
             string_osc.SetDamp(hw.GetKnobValue(DaisyVersio::KNOB_6));
 
         }
-
 
 		//Process knobs
         sequenceLength = processKnobValue(hw.GetKnobValue(DaisyVersio::KNOB_0),maxSteps);
